@@ -1,0 +1,11 @@
+x=float(input())
+r=float(input())
+y=float(input())
+interest=(x*r*y)/100
+print(format(interest,".2f"))
+total_amount=x+interest
+print(format(total_amount,".2f"))
+discount=(interest*2)/100
+print(format(discount,".2f"))
+final_amount=total_amount-discount
+print(format(final_amount,".2f"))
