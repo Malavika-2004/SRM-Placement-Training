@@ -1,0 +1,11 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=a*b//100
+e=a-d
+f=e*c//100
+h=e-f
+g=h//3
+print(d)
+print(f)
+print(g)
